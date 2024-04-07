@@ -1,7 +1,7 @@
 class Dragon:
-    element = "ice"
-
+    
     def __init__(self, element):
+        self.element = element
         return
 
     def get_breath_damage(self):
